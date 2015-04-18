@@ -20,6 +20,6 @@ public class EnemyZig : Enemy {
 		tempPos.z = (Mathf.Cos ((Time.time + this.startOffset) * Mathf.PI) * (this.speed*4)) + this.origPos.z;
 		this.pos = tempPos;
 		this.gameObject.transform.Rotate (this.speed*2, this.speed*2, this.speed*2);
-		base.Move ();
+		//base.Move ();
 	}
 }
