@@ -14,12 +14,12 @@ public class EnemyZig : Enemy {
 
 	public override void Move()
 	{
-		print (Time.time);
+		//print (Time.time);
 		Vector3 tempPos = this.pos;
 		tempPos.x = (Mathf.Sin ((Time.time + this.startOffset) * Mathf.PI) * (this.speed*4)) + this.origPos.x;
 		tempPos.z = (Mathf.Cos ((Time.time + this.startOffset) * Mathf.PI) * (this.speed*4)) + this.origPos.z;
 		this.pos = tempPos;
 		this.gameObject.transform.Rotate (this.speed*2, this.speed*2, this.speed*2);
-		//base.Move ();
+		base.Move ();
 	}
 }

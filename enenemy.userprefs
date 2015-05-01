@@ -1,10 +1,9 @@
-﻿<Properties>
+﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Enemy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\EnemyZig.cs">
     <Files>
-      <File FileName="..\codesamples\Assets\Sample.cs" Line="43" Column="16" />
-      <File FileName="Assets\EnemyZig.cs" Line="4" Column="30" />
-      <File FileName="Assets\Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\Enemy.cs" Line="8" Column="34" />
+      <File FileName="Assets\EnemyZig.cs" Line="7" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

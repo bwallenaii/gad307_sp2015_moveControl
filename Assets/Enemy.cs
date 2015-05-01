@@ -4,8 +4,8 @@ using System.Collections.Generic;
 
 public class Enemy : MonoBehaviour {
 
-	public float speed = 10f;
-	public float fireRate = 0.3f;
+	private float _speed = 10f;
+	protected float fireRate = 0.3f;
 
 	// Use this for initialization
 	void Start () {
@@ -45,6 +45,22 @@ public class Enemy : MonoBehaviour {
 			this.transform.position = value;
 		}
 
+	}
+
+	public float speed{
+		get{
+			return _speed;
+		}
+		set {
+			if(value > 15)
+			{
+				this._speed = 15f;
+			}
+			else
+			{
+				this._speed = value;
+			}
+		}
 	}
 
 	public Quaternion rot{
